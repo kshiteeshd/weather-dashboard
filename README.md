@@ -17,6 +17,10 @@ A modern and responsive weather app built with React and Tailwind CSS. Get real-
    ```sh
    npm install
    ```
-4. Start the development server:
+4. Create .env inside root and add:
+   ```sh
+   VITE_WEATHER_API_KEY=your_actual_api_key_here
+   ```
+5. Start the development server:
    ```sh
    npm run dev
