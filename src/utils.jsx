@@ -1,6 +1,6 @@
 // src/utils.js
 export const fetchWeatherByCity = async (city) => {
-    const apiKey = "992f67674c3247c0ae2144041250304"; 
+    const apiKey = import.meta.env.VITE_WEATHER_API_KEY; 
     const url = `https://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${city}`;
   
     try {
