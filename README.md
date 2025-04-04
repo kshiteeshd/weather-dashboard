@@ -7,7 +7,7 @@ A modern and responsive weather app built with React and Tailwind CSS. Get real-
 - ## Installation & Setup
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/weather-app.git
+   git clone https://github.com/kshiteeshd/weather-dashboard.git
    ```
 2. Navigate to the project directory:
    ```sh
