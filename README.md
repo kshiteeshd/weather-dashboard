@@ -11,7 +11,7 @@ A modern and responsive weather app built with React and Tailwind CSS. Get real-
    ```
 2. Navigate to the project directory:
    ```sh
-   cd weather-app
+   cd .\weather-dashboard\
    ```
 3. Install dependencies:
    ```sh
