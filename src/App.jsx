@@ -24,7 +24,9 @@ const App = () => {
   const handleGeoSearch = () => {
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition(
+
         async (position) => {
+
           const lat = position.coords.latitude;
           const lon = position.coords.longitude;
 
@@ -49,6 +51,8 @@ const App = () => {
     });
   }, []);
 
+
+
   const getBackgroundClass = () => {
     if (!weather) return "from-cyan-200 to-blue-900";
 
@@ -71,6 +75,10 @@ const App = () => {
 
     return "from-cyan-200 to-blue-900";
   };
+
+  
+
+
 
   return (
     <div className="flex items-center justify-center min-h-screen ">
